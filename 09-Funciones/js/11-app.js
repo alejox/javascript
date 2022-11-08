@@ -1,9 +1,9 @@
-/* const aprendiendo = function(nombre, nombre2){
-  console.log(`Aprendiendo ${nombre} y ${nombre2}`);
-}
+const aprendiendo = function () {
+  console.log('Aprendiendo JavaScript');
+};
 
-aprendiendo('Javascript', 'CSS') */
+aprendiendo();
 
-const aprendiendo2 = (tecnologia, tecnologia2) => `Aprendiendo ${tecnologia} y ${tecnologia2}`
+const aprendiendo2 = () => 'Aprendiendo JavaScript2';
 
-console.log(aprendiendo2('Javascript', 'CSS'));
+console.log(aprendiendo2());

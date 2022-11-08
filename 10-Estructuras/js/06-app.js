@@ -1,8 +1,12 @@
-const login = false
-const tarjeta = false
+const usuario = false;
+const puedesPagar = false;
 
-if(login || tarjeta){
-  console.log('puede realizar la transaccion');
-}else{
-  console.log('Necesitas tarjeta o loguearte al sistema');
+if (usuario && puedesPagar) {
+  console.log('Si puedes comprar');
+} else if (!puedesPagar && !usuario) {
+  console.log('No puedes comprar');
+} else if (!usuario) {
+  console.log('Inicia sesión o saca una cuenta');
+} else if (!puedesPagar) {
+  console.log('Fondos insuficientes');
 }
